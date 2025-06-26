@@ -15,10 +15,10 @@ else:
 openai = OpenAI() #instantiationg an instance of openai
 
 
-system_prompt = input("Enter a System Prompt: \n")
+# system_prompt = input("Enter a System Prompt: \n")
 user_prompt = input("Enter a User prompt: \n")
 
-# system_prompt = "You are a funny assistant"
+system_prompt = "You are a helpful assistant"
 # user_prompt = "Tell me a joke"
 
 prompts = [{"role":"system", "content":system_prompt},{"role":"user","content":user_prompt}]
